@@ -1,6 +1,6 @@
 SPACE CAT INVADERS
 
-Simple game to shoot mice in space. Game has no end. Shoot till Game Over.
+Simple game to shoot mice in space. Game has no end. Shoot till Game Over. Game subject to changes in the future.
 
 How to run:
 
