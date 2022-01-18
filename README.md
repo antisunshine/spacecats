@@ -1,28 +1,32 @@
-SPACE CAT INVADERS
+# SPACE CAT INVADERS
 
 Simple game to shoot mice in space. Game has no end. Shoot till Game Over. In developement.
 
-How to run:
 
-Download files and run main.py
+#### How to run:
 
-Credits:
+Download files and run **main.py**  
 
-Game made by Susanne Koljonen
 
-Images:
+##### Credits:
 
-"Cat" by smashingstocks, cc-0
-"Rat" by BomSymbols, cc-0
-"Yarn" by Good Ware, cc-0
-"Background" by freepik.com
+Game made by Susanne Koljonen  
 
-Original sounds:
 
-"Mouse Squeaks" by Shyguy014, cc-0
-"heavy metal loop" bt evilus, cc-0
-"Ka-Pew" by TheRobotRob, cc-0
-"Pew!" by Matiss Ozolins, cc-0
+###### Images:
 
-Fonts:
-"Action Comics" by imagex
+"Cat" by smashingstocks, cc-0  
+"Rat" by BomSymbols, cc-0  
+"Yarn" by Good Ware, cc-0  
+"Background" by freepik.com  
+
+
+###### Original sounds:
+
+"Mouse Squeaks" by Shyguy014, cc-0  
+"heavy metal loop" bt evilus, cc-0  
+"Ka-Pew" by TheRobotRob, cc-0  
+"Pew!" by Matiss Ozolins, cc-0  
+
+###### Fonts:
+"Action Comics" by imagex  
