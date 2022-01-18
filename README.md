@@ -3,10 +3,10 @@
 Simple game to shoot mice in space. Game has no end. Shoot till Game Over. In developement.
 
 
-#### How to run:
-
-Download files and run **main.py**  
-
+> #### How to run:
+>
+> Download files and run **main.py**  
+>
 
 ##### Credits:
 
