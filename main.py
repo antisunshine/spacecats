@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pygame
 import random
 import math
@@ -176,7 +175,7 @@ while running:
 
     # Update screen
     pygame.display.update()
-=======
+
 import pygame
 import random
 import math
@@ -354,4 +353,3 @@ while running:
 
     # Update screen
     pygame.display.update()
->>>>>>> 22e97874df176de86785292c53fc2c04a9e1c53f
