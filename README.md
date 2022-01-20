@@ -15,9 +15,9 @@ Game made by Susanne Koljonen
 
 ###### Images:
 
-- "Cat" by smashingstocks, cc-0  
+- "Cat" by Susanne Koljonen  
 - "Rat" by BomSymbols, cc-0  
-- "Yarn" by Good Ware, cc-0  
+- "Thread" by Susanne Koljonen  
 - "Background" by freepik.com  
 
 
