@@ -1,5 +1,7 @@
 # SPACE CAT INVADERS
 
+Hello Space Cat Cadets! You are to not tell the humans of the danger ahead. They need not to know that the dangerous Space Mice have launched their attempt to invade. You are to protect the earthlings at any cost!
+
 Simple game to shoot mice in space. Game has no end. Shoot till Game Over. In developement.
 
 
