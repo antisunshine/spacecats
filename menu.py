@@ -109,6 +109,7 @@ class OptionsMenu(Menu):
             # to-do: create Volume and Controls menu
             pass
 
+
 class CreditsMenu(Menu):
     def __init__(self, game):
         Menu.__init__(self, game)
@@ -124,4 +125,3 @@ class CreditsMenu(Menu):
             self.game.drawText('CREDITS', 30, self.game.DISPLAY_W / 2, 50)
             self.game.drawText('MADE BY SUSANNE KOLJONEN', 20, self.game.DISPLAY_W / 2, self.game.DISPLAY_H / 2)
             self.blitScreen()
-

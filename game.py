@@ -106,6 +106,39 @@ class Game:
                 self.fireBullet(self.bulletX, self.bulletY)
                 self.bulletY -= self.bulletY_change
 
+            # Enemy
+            for i in range(self.num_of_enemies):
+                self.enemyX[i] += self.enemyX_change
+                if self.enemyX[i] <= 0:
+                    self.enemyX_change = 1
+                    for j in range(self.num_of_enemies):
+                        self.enemyY[j] += self.enemyY_change
+                elif self.enemyX[i] >= 736:
+                    self.enemyX_change = -1
+                    for j in range(self.num_of_enemies):
+                        self.enemyY[j] += self.enemyY_change
+                if self.enemyY[i] > 410:
+                    for j in range(self.num_of_enemies):
+                        self.enemyY[j] = 2000
+                    self.gameOver()
+                    break
+                # Draw enemy
+                self.enemy(self.enemyX[i], self.enemyY[i], i)
+
+                # Collision
+                collision = self.isColision(self.enemyX[i], self.enemyY[i], self.bulletX, self.bulletY)
+                if collision:
+                    hitSound = mixer.Sound('sounds/rat.ogg')
+                    hitSound.play()
+                    self.bulletY = 480
+                    self.bulletState = "ready"
+                    self.score += 100
+                    self.enemyX[i] = random.randint(50, 735)
+                    self.enemyY[i] = random.randint(50, 150)
+
+            # Score
+            self.showScore()
+
             self.window.blit(self.display, (0, 0))
             pygame.display.update()
             self.resetKeys()
@@ -147,10 +180,10 @@ class Game:
         self.display.blit(textSurface, textRect)
 
     def showScore(self):
-        self.drawText('SCORE: ' + str(self.score), 10, 10, 10)
+        self.drawText('SCORE ' + str(self.score), 20, 120, 40)
 
     def gameOver(self):
-        self.drawText('GAME OVER!', 20, self.DISPLAY_W / 2, self.DISPLAY_H / 2)
+        self.drawText('GAME OVER!', 50, self.DISPLAY_W / 2, self.DISPLAY_H / 2)
 
     def player(self, x, y):
         self.display.blit(self.playerIcon, (x, y))
